@@ -74,53 +74,7 @@ function ResponsiveAppBar() {
             Grammr
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="inherit"
-            >
-              <MenuIcon />
-            </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: "bottom",
-                horizontal: "left",
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "left",
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: "flex", md: "none" },
-              }}
-            >
-              {pages.map((page) => (
-                <MenuItem
-                  key={page.id}
-                  sx={{
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: "10px",
-                  }}
-                  onClick={handleCloseNavMenu}
-                >
-                  <Link key={page.id} href={page.href}>
-                    {page.link}
-                  </Link>
-                </MenuItem>
-              ))}
-            </Menu>
-          </Box>
-
+          
           <Typography
             variant="h5"
             noWrap
@@ -130,7 +84,7 @@ function ResponsiveAppBar() {
               mr: 2,
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
-
+              ml : 2,
               fontWeight: 500,
               letterSpacing: ".3rem",
               color: "inherit",
@@ -162,6 +116,55 @@ function ResponsiveAppBar() {
               </Link>
             ))}
           </Box>
+          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none", mr:0 } }}>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+              
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: "bottom",
+                horizontal: "left",
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: "top",
+                horizontal: "left",
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{
+                display: { xs: "flex", md: "none" },
+                mr : 0
+              }}
+            >
+              {pages.map((page) => (
+                <MenuItem
+                  key={page.id}
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "10px",
+                  }}
+                  onClick={handleCloseNavMenu}
+                >
+                  <Link key={page.id} href={page.href}>
+                    {page.link}
+                  </Link>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
+
         </Toolbar>
       </Container>
     </AppBar>
