@@ -1,9 +1,10 @@
 import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="flex flex-row flex-wrap text-center   w-screen bg-bg h-screen overflow-y-hidden">
-      <div className=" w-screen h-auto flex  flex-col mt-5 items-center text-white text-2xl px-5 pt-8">
-        <p className="text-5xl text-[#e7b82b] mb-2 bg-gradient-to-[#FFC107]">
+      <div className=" w-screen h-auto flex  flex-col mt-5 items-center text-gray-300 text-2xl px-5 pt-8">
+        <p className="text-5xl text-[#ffffff] mb-2 bg-gradient-to-[#FFC107]">
           Grammr
         </p>{" "}
         Your AI-powered tool for perfecting your writing.
@@ -17,7 +18,7 @@ export default function Home() {
         </p>
         <Link
           href={"/ask"}
-          className=" bg-blue-700 text-[12px] px-2 w-24 rounded mt-4"
+          className=" bg-blue-700 text-[12px] px-2 w-24 rounded mt-4 text-md font-bold"
         >
           Get Started
         </Link>
