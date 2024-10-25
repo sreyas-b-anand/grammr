@@ -1,4 +1,4 @@
-# Grammr Checking App Using Gemini Pi
+# Grammr
 
 ## Project Overview
 The **Grammr Checking App** is a web application built with **Next.js**, **JavaScript**, **Tailwind CSS**, and **Material-UI (MUI)**. It provides real-time grammar correction using the Gramformer library and features a user-friendly interface powered by Gradio.
