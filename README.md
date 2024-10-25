@@ -1,7 +1,7 @@
 # Grammr
 
 ## Project Overview
-The **Grammr Checking App** is a web application built with **Next.js**, **JavaScript**, **Tailwind CSS**, and **Material-UI (MUI)**. It provides real-time grammar correction using the Gramformer library and features a user-friendly interface powered by Gradio.
+The **Grammr** is a web application built with **Next.js**, **JavaScript**, **Tailwind CSS**, and **Material-UI (MUI)** and **Gemini Api**. 
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -16,8 +16,8 @@ To set up the Grammr Checking App, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/grammr-checking-app.git
-   cd grammr-checking-app
+   git clone https://github.com/sreyas-b-anand/grammr.git
+   cd grammr
 2. **Install Dependencies**
    - Ensure you have Node.js installed, then run:
    ```bash
