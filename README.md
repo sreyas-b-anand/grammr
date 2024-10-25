@@ -1,7 +1,7 @@
 # Grammr
 
 ## Project Overview
-The **Grammr** is a web application built with **Next.js**, **JavaScript**, **Tailwind CSS**, and **Material-UI (MUI)** and **Gemini Api**. 
+**Grammr** is a web application built with **Next.js**, **JavaScript**, **Tailwind CSS**, and **Material-UI (MUI)** and **Gemini Api**. 
 
 ## Table of Contents
 1. [Installation](#installation)
