@@ -28,19 +28,19 @@ To set up the Grammr Checking App, follow these steps:
    npm run dev
 
  - Access the app in your web browser at http://localhost:3000.
-4. **Tech Stack**
+## Tech Stack
  - Next.js: A React framework for server-side rendering and static site generation.
  - JavaScript: The programming language used for building interactive features.
  - Tailwind CSS: A utility-first CSS framework for rapid UI development.
  - Material-UI (MUI): A React UI framework that implements Material Design principles.
-5. **Features**
+## Features
  - Real-time Grammar Correction: Utilizes Gramformer to provide immediate feedback on grammar errors.
  - Responsive Design: Built with Tailwind CSS for a mobile-friendly experience.
  - Customizable Components: Leverages MUI for pre-designed, accessible UI components.
  - Open Source: The application is open for contributions and improvements.
 
-6. **Contributing**
+## Contributing
  - Contributions are welcome! Please follow these steps:
  
-7. **License**
+## License
  - This project is licensed under the MIT License - see the LICENSE file for details.
