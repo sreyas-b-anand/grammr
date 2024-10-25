@@ -11,6 +11,11 @@
 5. [Contributing](#contributing)
 6. [License](#license)
 
+## Screenshots
+
+Here’s a preview of the Grammr interface:
+
+![Grammr App Screenshot](./assets/grammr.png)
 ## Installation
 To set up the Grammr Checking App, follow these steps:
 
