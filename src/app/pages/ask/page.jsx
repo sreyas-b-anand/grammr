@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import Spinner from "../components/Spinner";
+import Spinner from "../../components/Spinner";
 import SendTwoToneIcon from "@mui/icons-material/SendTwoTone";
 import ClearTwoToneIcon from "@mui/icons-material/ClearTwoTone";
 export default function Ask() {
